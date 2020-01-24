@@ -1,3 +1,3 @@
-class Dog
-  attr_accessor :name, :breed
+class Dog < ApplicationController
+
 end
