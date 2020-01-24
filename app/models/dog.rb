@@ -1,5 +1,5 @@
 class Dog < Sinatra::Base
-  def initialize(attributes = {})
+  def initialize(name:, breed:)
     attributes.each do |e, v|
       self.send("#{e}=", v)
     end
