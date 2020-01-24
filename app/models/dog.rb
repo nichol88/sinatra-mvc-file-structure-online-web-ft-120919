@@ -1,6 +1,6 @@
 class Dog < Sinatra::Base
   attr_accessor :name
-  def initialize(attributes)
+  def initialize(name, breed)
     attributes.each do |e, v|
       self.send("#{e}=", v)
     end
