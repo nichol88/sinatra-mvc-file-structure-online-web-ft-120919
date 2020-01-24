@@ -1,3 +1,3 @@
-class Dog < ApplicationController
+class Dog < ActiveRecord::Base
 
 end
