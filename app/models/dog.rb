@@ -1,3 +1,3 @@
 class Dog < ActiveRecord::Base
-  attr_accessor :name
+  attr_accessor :name, :breed
 end
